@@ -7,7 +7,7 @@ This model was an attempt at improving patient/practitioner matching effectivene
 ## Process
 - A webscraper was created to read data from a public doctor rating [site](https://www.ratemds.com/)
 - Preprocessing data by manual labelling each data point
-- Feature selection by finding most correlated words with each descriptor
+- Feature selection by correlation analysis
 - Text classification model selection by running a comparison of naive-bayes, svc, random forest, and a logistic regression.
 - Accuracy test using a weighted averaged f1 score
 
