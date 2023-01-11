@@ -1,5 +1,5 @@
 '''
-#Capstone project webscraper for ontario doctor directory
+#Webscraper for ontario doctor directory
 from bs4 import BeautifulSoup
 import time
 import requests
@@ -18,6 +18,9 @@ docs = soup.find_all('strong')
 
 for doc in docs:
     print(doc)
+'''
+'''
+Use beautifulsoup & selenium based webscraper for the ratemds website
 '''
 
 from bs4 import BeautifulSoup
